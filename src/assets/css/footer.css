@@ -1,0 +1,45 @@
+
+
+
+/* Footer */
+.container_footer {
+    position: absolute;
+    max-width: 120rem;
+    width: 100%;
+    display: block;
+    background: #103833;
+    height: 15rem;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+.container_footer--redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.container_footer--redes svg {
+    height: 5rem;
+}
+
+.svgImg {
+    width: 4rem;
+    padding-left: 1rem;
+}
+.copyright {
+    margin-top: 1rem;
+}
+
+.about{
+    padding-top: 2rem;
+}
+
+.about-link{
+    text-decoration: underline;
+}
