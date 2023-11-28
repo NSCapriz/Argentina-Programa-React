@@ -2,11 +2,12 @@
     margin: 1rem;
 }
 
-h4 {
+.serv {
     font-family: var(--base-font);
     text-align: center;
     color: white;
     padding: 2rem;
+    font-size: 3rem;
 }
 
 .container_productos--detalle {
@@ -71,6 +72,7 @@ h4 {
 }
 
 @media screen and (max-width: 1190px) {
+
     .card-servicios {
         flex-direction: column;
         max-width: 60rem;
@@ -87,3 +89,4 @@ h4 {
         margin: 0 auto;
     }
 }
+
