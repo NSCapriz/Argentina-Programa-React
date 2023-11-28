@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
+import '../../assets/css/navbar.css'
 //Importación para el Router Dom
 import { NavLink } from "react-router-dom";
-import '../../assets/css/navbar.css'
 
 //Importaciones de imagenes para la Navbar
 import logo from "../../assets/img/logo-agencia.png"; //Ejemplo

@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <>
             <div className="hero">
-                <a >
-                    <NavLink to="/nosotros" className="hero-link">CONOCENOS</NavLink>
+                <a className="hero-link">
+                    <NavLink to="/nosotros">CONOCENOS</NavLink>
                 </a>
                 <p>
                     " Descubre el poder de la excelencia en marketing con

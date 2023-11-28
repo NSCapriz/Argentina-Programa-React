@@ -5,24 +5,12 @@
     background-size: cover;
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 60rem;
     align-items: center;
 }
 
-@media (max-width: 768px){
-    .hero{
-        display: flex;
-        flex-direction: column-reverse;
-        min-height: 80vh;
-        padding-bottom: 5rem;
-    }
-
-    .hero p{
-        margin-bottom: 3rem;
-    }
-}
-
 .hero-link {
+    display: inline-block;
     margin-left: 20rem;
     margin-left: min(20rem, 10%);
     font-family: var(--alternative-font);
@@ -39,10 +27,9 @@
 }
 
 .hero p {
-    max-height: 60vh;
     margin-left: 1rem;
     font-family: var(--base-font);
-    font-size: clamp(0.1em, 3vw, 2em);
+    font-size: 2rem;
     text-align: justify;
     color: white;
     padding: 8rem;

@@ -63,15 +63,16 @@
     font-weight: 600;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1060px) {
+
+    .container_navbar--logo {
+        padding-left: 1rem;
+    }
+    
     .container_navbar--links button {
         display: block;
         cursor: pointer;
         margin-right: 1rem;
-    }
-
-    .container_navbar--logo {
-        padding-left: 1rem;
     }
 
     .container_navbar--links ul {

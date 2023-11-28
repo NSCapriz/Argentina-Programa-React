@@ -14,7 +14,7 @@ const Formulario = () => {
     const manejarEnvio = (evento) => {
         evento.preventDefault();
         if (!errorMensaje) {
-            alert("Formulario Enviado ✅");
+            alert("Formulario Enviado");
             setNombre("");
             setApellido("");
             setEmail("");
