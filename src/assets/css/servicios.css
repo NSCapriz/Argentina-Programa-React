@@ -71,7 +71,7 @@ h4 {
 }
 
 @media screen and (max-width: 1190px) {
-    .card-servicios {
+     .card-servicios {
         flex-direction: column;
         max-width: 60rem;
         margin: 0 auto;
