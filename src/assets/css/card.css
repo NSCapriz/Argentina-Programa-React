@@ -42,7 +42,7 @@
     height: 40rem;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1040px) {
     .image-section {
         padding: 1.5rem;
     }
@@ -64,14 +64,29 @@
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 980px) {
     .image-description {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 830px) {
+
+    h4{
+        font-size: 1.5rem;
+    }
+
     .image-description {
         font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    h4{
+        font-size: 1rem;
+    }
+
+    .image-description {
+        font-size: 0.6rem;
     }
 }
