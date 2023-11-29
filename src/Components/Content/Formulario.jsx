@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../../assets/css/contact.css";
+import Swal from 'sweetalert2'
 
 const Formulario = () => {
     const [nombre, setNombre] = useState("");
@@ -14,7 +15,10 @@ const Formulario = () => {
     const manejarEnvio = (evento) => {
         evento.preventDefault();
         if (!errorMensaje) {
-            alert("Formulario Enviado");
+            Swal.fire("¡ Consulta enviada !");
+            Swal.update({
+                icon: 'success'
+            });
             setNombre("");
             setApellido("");
             setEmail("");

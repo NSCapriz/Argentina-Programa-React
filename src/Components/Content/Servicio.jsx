@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../../assets/css/servicios.css";
 import PropTypes from "prop-types";
+import Swal from 'sweetalert2'
 
 function Servicio(props) {
     const [contenido, setContenido] = useState(false);
@@ -8,7 +9,10 @@ function Servicio(props) {
         setContenido(!contenido);
     };
     const comprar = () => {
-        alert("Gracias por adquirir nuestros servicios❗");
+        Swal.fire("¡ Gracias por adquirir nuestros servicios !");
+        Swal.update({
+            icon: 'success'
+        })
     };
     return (
         <>
